@@ -1,11 +1,11 @@
 {
-    "name": "Covid-19 Stats UK",
+    "name": "gen-lib-rus search engine",
     "version": "1.0.0",
-    "description": "latest covid data of UK",
+    "description": "Search for your file",
     "manifest_version": 3,
-    "author": "Sampurna Chapagain",
+    "author": "Emanuel Fontelles",
     "action":{
         "default_popup": "index.html",
-        "default_title": "Latest Covid Report"
+        "default_title": "Search for your file"
     }
 }

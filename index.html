@@ -1,34 +1,148 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0017)http://libgen.rs/ -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-    <title>Covid-19 Stats- UK</title>
-    <meta charset="utf-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="description"
+        content="Library Genesis is a scientific community targeting collection of books on natural science disciplines and engineering.">
+    <title>Library Genesis</title>
+    <link rel="stylesheet" href="./Library Genesis_files/menu.css" type="text/css" media="screen">
+    <style type="text/css">
+        .c {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 11px;
+            color: #000000;
+            letter-spacing: 0px;
+        }
+
+        A {
+            text-decoration: none;
+        }
+
+        TD {
+            padding: 1px;
+        }
+
+        TABLE {
+            border-spacing: 1px 1px;
+        }
+    </style>
+    <!--[if IE 6]>
+	<style>
+		body {behavior: url('/csshover3.htc');}
+		#menu li .drop {background:url('/img/drop.gif') no-repeat right 8px; 
+	</style>
+	<![endif]-->
+    <link rel="stylesheet" type="text/css" href="./Library Genesis_files/paginator3000.css">
+    <script type="text/javascript" src="./Library Genesis_files/paginator3000.js"></script>
+    <link rel="search" type="application/opensearchdescription+xml" href="http://libgen.rs/main/opensearch.xml"
+        title="Library Genesis">
 </head>
-<body>
-    <div class="container mt-3" style="width: 450px;">
-        <h2 class="text-center">Covid Latest Report-UK</h2>
-        <table class="table table-bordered">
-            <thead>
-            <tr>
-                <th>Date</th>
-                <th>Country</th>
-                <th>Confirmed</th>
-                <th>Deaths</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td id="date"></td>
-                <td id="areaName"></td>
-                <td id="latestBy"></td>
-                <td id="deathNew"></td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-</body>
+
+<table cellspacing="0" border="0" width="100%" height="100%">
+    <colgroup>
+        <col width="33%">
+        <col width="70%">
+    </colgroup>
+    <tbody>
+        <tr></tr>
+    </tbody>
+    <caption>
+        <h1><a href="http://libgen.rs/" style="color:#A00000">Library Genesis</a></h1><br>Current alias domains are <a
+            href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a
+            href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br><a
+            href="https://wiki.mhut.org/catalog:search">A guide to effective catalog searching</a><br>Try <a
+            href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application! Now with IPFS
+        downloads!<br><a href="http://custodians.online/">Letter of Solidarity</a>
+        <b></b>
+    </caption>
+    <tbody>
+        <tr>
+            <td></td>
+            <td nowrap="">
+                <form name="libgen" action="http://libgen.rs/search.php">
+                    <input autofocus="autofocus" name="req" id="searchform" size="60" maxlength="200" value="">
+                    <input id="search" type="submit" onclick="this.disabled=" disabled';="" document.forms.item(0).submit();'=""
+                        value="Search!"><br>
+
+
+                    <b>Search in</b> :<br>
+                    <table border="0">
+                        <tbody>
+                            <tr>
+                                <td><input type="radio" name="lg_topic" value="libgen" checked=""><a
+                                        href="http://libgen.rs/">Non-fiction / Sci-tech</a></td>
+                                <td><input type="radio" name="lg_topic" value="fiction"><a
+                                        href="http://libgen.rs/foreignfiction/index.php">Fiction</a></td>
+                                <td><input type="radio" name="lg_topic" value="scimag"><a
+                                        href="http://libgen.rs/scimag/index.php">Scientific articles</a></td>
+                                <td><input type="radio" name="lg_topic" value="magzdb"><a
+                                        href="http://magzdb.org/">Magazines</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <font color="grey">LibGen Search options:</font>
+                    <br>
+                    <label><b>Download type:</b></label>
+                    <select name="open" size="1">
+                        <option value="0" selected="selected">Resumed dl with original filename</option>
+                        <option value="1">Resumed dl with translit filename</option>
+                        <option value="2">Resumed dl with md5 filename</option>
+                        <option value="3">Open file in browser</option>
+                    </select><br>
+                    <b>View results:</b>
+                    <input type="radio" name="view" checked="" value="simple">
+                    <label for="simple">Simple</label>
+                    <input type="radio" name="view" value="detailed">
+                    <label for="detailed">Detailed</label>
+                    <br>
+
+                    <label><b>Results per page</b></label>
+                    <select name="res" size="1">
+                        <option value="25" selected="selected">25</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+
+                    </select>
+
+
+
+                    <br>
+                    <b> Search with mask (word*):</b>
+                    <input type="radio" name="phrase" checked="" value="1">
+                    <label for="detailed">No</label>
+                    <input type="radio" name="phrase" value="0">
+                    <label for="simple">Yes</label>
+                    <br>
+                    <font><b>Search in fields</b></font>
+                    <input type="radio" name="column" value="def" checked=""><a href="http://libgen.rs/#"
+                        title="Columns: Title,Author(s),Series,Periodical,Publisher,Year,VolumeInfo">The column set
+                        default</a>
+                    <input type="radio" name="column" value="title">Title
+                    <input type="radio" name="column" value="author">Author(s)
+                    <input type="radio" name="column" value="series">Series<br>
+
+                    <input type="radio" name="column" value="publisher">Publisher
+                    <input type="radio" name="column" value="year">Year
+                    <input type="radio" name="column" value="identifier">ISBN
+                    <input type="radio" name="column" value="language"><a href="http://libgen.rs/"
+                        title="Russian, English, German, French, Spanish, ... etc. (ISO 639)">Language</a>
+                    <input type="radio" name="column" value="md5">MD5
+                    <input type="radio" name="column" value="tags">Tags
+                    <input type="radio" name="column" value="extension">Extension
+                </form>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div id="416092e1cc8e7f053ea6c8a48811977f"></div>
 <script src="script.js"></script>
+</body>
+
 </html>
-
-
