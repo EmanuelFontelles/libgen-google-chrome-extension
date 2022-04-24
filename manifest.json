@@ -1,11 +1,16 @@
 {
-    "name": "gen-lib-rus search engine",
+    "name": "Library Genesis",
     "version": "1.0.0",
-    "description": "Search for your file",
+    "description": "Library Genesis google-chrome extension to improve daily searches",
     "manifest_version": 3,
     "author": "Emanuel Fontelles",
+    "icons": {
+        "16": "./img/libgen-icon.png",
+        "48": "./img/libgen-icon.png",
+       "128": "./img/libgen-icon.png"
+     },    
     "action":{
         "default_popup": "index.html",
-        "default_title": "Search for your file"
+        "default_title": "Library Genesis search engine"
     }
 }
