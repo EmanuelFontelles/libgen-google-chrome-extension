@@ -1,6 +1,7 @@
 Library Genesis Google Chrome extension
 =======
 
+![libgen-extension](img/example.png)
 
 # Tools used #
 * HTML, CSS and JavaScript
