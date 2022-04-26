@@ -1,6 +1,6 @@
 {
     "name": "Library Genesis",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Library Genesis google-chrome extension to improve daily searches",
     "manifest_version": 3,
     "author": "Emanuel Fontelles",

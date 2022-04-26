@@ -55,4 +55,4 @@ Contributions (Pull Requests) are also welcome!
 Thank you if you want to help this project. 
 [Paypal](emanuelfontelles@hotmail.com)
 
-<a rel="nofollow" href="http://helloacm.com/out/buymecoffee" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-blue.png" alt="Buy Me A Coffee"></a>
+<a rel="nofollow" href="emanuelfontelles@hotmail.com" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-blue.png" alt="Buy Me A Coffee"></a>

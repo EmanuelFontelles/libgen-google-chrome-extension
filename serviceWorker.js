@@ -1,6 +1,6 @@
 chrome.contextMenus.create({
     id: 'libgen-search',
-    title: 'Search on Libgen',
+    title: 'Search on Library Genesis',
     contexts: ['selection'],
 });
 
