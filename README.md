@@ -58,7 +58,7 @@ Thank you and if you want to help this project please donate to us.
     <a rel="nofollow" href="https://emanuelfontelles.github.io/aboutme.html" target="_blank"><img
             src="https://cdn.buymeacoffee.com/buttons/lato-blue.png" alt="Buy Me A Coffee"></a>
     <br><br>
-    <form action="https://www.paypal.com/donate" method="post" target="_top">
+    <form action="https://www.paypal.com/donate" target="_top">
         <input type="hidden" name="business" value="VBAS8LCQMWP34" />
         <input type="hidden" name="no_recurring" value="0" />
         <input type="hidden" name="currency_code" value="BRL" />
