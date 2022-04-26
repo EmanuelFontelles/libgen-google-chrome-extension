@@ -20,12 +20,12 @@ Unit tests are based on `mocha` and `chai`.  ~~Run all tests: `npm run test`~~ N
 # Install Unpacked Versions
 - Download the repository and then you can load unpacked version in Chrome. (under development mode)
 
-1st step:
+## 1st step:
 ```bash
 git clone https://github.com/EmanuelFontelles/libgen-google-chrome-extension.git
 ```
 
-2nd step:
+## 2nd step:
 - Go to Google Chrome extension on settings panel
 
 <img src="./img/install_extension_1.png" width="600" height="519" alt="">
