@@ -58,12 +58,6 @@ Thank you and if you want to help this project please donate to us.
     <a rel="nofollow" href="https://emanuelfontelles.github.io/aboutme.html" target="_blank"><img
             src="https://cdn.buymeacoffee.com/buttons/lato-blue.png" alt="Buy Me A Coffee"></a>
     <br><br>
-    <form action="https://www.paypal.com/donate" target="_top">
-        <input type="hidden" name="business" value="VBAS8LCQMWP34" />
-        <input type="hidden" name="no_recurring" value="0" />
-        <input type="hidden" name="currency_code" value="BRL" />
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
-            title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-        <img alt="" border="0" src="https://www.paypal.com/en_BR/i/scr/pixel.gif" width="1" height="1" />
-    </form>
+    <a rel="nofollow" href="https://www.paypal.com/donate/?business=VBAS8LCQMWP34&no_recurring=0&currency_code=BRL" target="_blank"><img
+            src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" alt="Buy Me A Coffee"></a>
 </div>
