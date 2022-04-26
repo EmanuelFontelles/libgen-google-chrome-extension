@@ -7,10 +7,16 @@
     "icons": {
         "16": "./img/libgen-icon.png",
         "48": "./img/libgen-icon.png",
-       "128": "./img/libgen-icon.png"
-     },    
-    "action":{
+        "128": "./img/libgen-icon.png"
+    },
+    "action": {
         "default_popup": "index.html",
         "default_title": "Library Genesis search engine"
-    }
+    },
+    "background": {
+        "service_worker": "serviceWorker.js"
+    },
+    "permissions": [
+        "contextMenus"
+    ]
 }
